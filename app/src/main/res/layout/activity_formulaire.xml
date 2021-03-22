@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FormulaireActivity"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/formulaire_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom"/>
+
+        <EditText
+            android:id="@+id/formulaire_adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adresse"/>
+
+        <EditText
+            android:id="@+id/formulaire_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Téléphone"/>
+
+        <EditText
+            android:id="@+id/formulaire_site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Site"/>
+
+        <RatingBar
+            android:id="@+id/formulaire_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>
